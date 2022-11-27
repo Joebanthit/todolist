@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todolists",
+  "info": {
+    "singularName": "todolist",
+    "pluralName": "todolists",
+    "displayName": "Todolist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "cover_date": {
+      "type": "date"
+    },
+    "cover_time": {
+      "type": "time"
+    },
+    "cover_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
